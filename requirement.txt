@@ -1,0 +1,10 @@
+ai2thor
+prior
+numpy
+matplotlib
+scikit-image
+cython
+seaborn
+tables
+sklearn
+clip-by-openai
