@@ -7,7 +7,7 @@ This repository is the official implementation of
 *<a href="https://proceedings.mlr.press/v177/">Conference on Causal Learning and Reasoning (CLeaR), 2023*
 <br>
 <a href="https://sites.google.com/view/yuejiangliu">Yuejiang Liu</a>,
-<a href="https://people.epfl.ch/alexandre.alahi/?lang=en">Alexandre Alahi</a>
+<a href="https://people.epfl.ch/alexandre.alahi/?lang=en">Alexandre Alahi</a>,
 <a href="https://scholar.google.com/citations?user=RM2sHhYAAAAJ&hl=en">Chris Russell</a>,
 <a href="https://expectationmax.github.io">Max Horn</a>,
 <a href="https://is.mpg.de/person/dzietlow">Dominik Zietlow</a>,
