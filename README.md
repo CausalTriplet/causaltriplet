@@ -14,6 +14,8 @@ This repository is the official implementation of
 <a href="https://is.mpg.de/~bs">Bernhard Schölkopf</a>,
 <a href="https://www.francescolocatello.com">Francesco Locatello</a>
 
+Our code will be further updated by mid-April. Please feel free to contact yuejiang.liu[at]epfl.ch for any other information.
+
 ### Requirements
 
 To install requirements:
