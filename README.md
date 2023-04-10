@@ -4,7 +4,7 @@ This repository is the official implementation of
 <br>
 **Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning**
 <br>
-*<a href="https://proceedings.mlr.press/v177/">Conference on Causal Learning and Reasoning (CLeaR), 2023*
+*<a href="https://www.cclear.cc/2023/AcceptedPapers">Conference on Causal Learning and Reasoning (CLeaR), 2023*
 <br>
 <a href="https://sites.google.com/view/yuejiangliu">Yuejiang Liu</a>,
 <a href="https://people.epfl.ch/alexandre.alahi/?lang=en">Alexandre Alahi</a>,
@@ -14,7 +14,7 @@ This repository is the official implementation of
 <a href="https://is.mpg.de/~bs">Bernhard Schölkopf</a>,
 <a href="https://www.francescolocatello.com">Francesco Locatello</a>
 
-Our code will be further updated by mid-April. Please feel free to contact yuejiang.liu[at]epfl.ch for any other information.
+If you have any questions regarding the code/dataset, please feel free to raise issues in the repo or email me at yuejiang.liu[at]epfl.ch.
 
 ### Requirements
 
@@ -32,9 +32,11 @@ To generate paired images from ProcTHOR:
 python procthor/generator.py --min_scene_idx=0 --max_scene_idx=9999
 ```
 
-Examples of paired images, between which an 'open' action is performed:
+Below are some examples of the generated image pairs, where an 'open' action is performed:
 
 <img width="10%" src="docs/thor/a_first.png"/><img width="10%" src="docs/thor/a_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/b_first.png"/><img width="10%" src="docs/thor/b_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/c_first.png"/><img width="10%" src="docs/thor/c_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/d_first.png"/><img width="10%" src="docs/thor/d_second.png"/>
+
+The total size of the dataset is ~165GB. Examples from scene 0-2000 can be downloaded at [zenodo](https://zenodo.org/record/7813658).
 
 ### Training
 
@@ -112,3 +114,16 @@ Examples of experiment results from the saved [logs](logs):
 (left to right: input pair, reconstructed pair, segmentation masks)
 
 <img width="80%" src="docs/thor/slot.png">
+
+### Citation
+
+If you find this code useful for your research, please cite our paper:
+
+```bibtex
+@inproceedings{Liu2023CausalTriplet,
+  title={Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning},
+  author={Liu, Yuejiang and Alahi, Alexandre and Russell, Chris and Horn, Max and Zietlow, Dominik and Sch{\"o}lkopf, Bernhard and Locatello, Francesco},
+  booktitle={2nd Conference on Causal Learning and Reasoning (CLeaR)},
+  year={2023}
+}
+```
