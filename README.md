@@ -36,7 +36,7 @@ Below are some examples of the generated image pairs, where an 'open' action is 
 
 <img width="10%" src="docs/thor/a_first.png"/><img width="10%" src="docs/thor/a_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/b_first.png"/><img width="10%" src="docs/thor/b_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/c_first.png"/><img width="10%" src="docs/thor/c_second.png"/> &nbsp; &nbsp; <img width="10%" src="docs/thor/d_first.png"/><img width="10%" src="docs/thor/d_second.png"/>
 
-The total size of the dataset is ~165GB. Examples from scene 0-2000 can be downloaded at [zenodo](https://zenodo.org/record/7813658).
+The total size of the dataset is ~165GB. Examples collected from ProcTHOR room #0-2000 can be downloaded at [zenodo](https://zenodo.org/record/7813658).
 
 ### Training
 
@@ -110,10 +110,13 @@ Examples of experiment results from the saved [logs](logs):
 
 <img width="35%" src="logs/log_slot_thor_1208/summary_iid_slot.png"> <img width="35%" src="logs/log_slot_thor_1208/summary_ood_slot.png">
 
-* Visualization of implicit Slot Attention on simulated multi-object images \
-(left to right: input pair, reconstructed pair, segmentation masks)
+* Visualization of implicit Slot Attention on simulated multi-object images
 
 <img width="80%" src="docs/thor/slot.png">
+
+* Visualization of segmentation anything model (SAM) on simulated multi-object images. Three masks of the highest scores are visualized, given a point prompt in the shadow.
+
+<img width="80%" src="docs/thor/sam.png">
 
 ### Citation
 
