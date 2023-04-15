@@ -77,6 +77,11 @@ The total size of the dataset is ~165GB. Examples collected from ProcTHOR room #
 	bash script/run_slot_thor.sh
 	```
 
+	To run the foundation model for segmentation ([SAM](https://segment-anything.com/)) with a point prompt:
+	```bash
+	bash script/run_sam_thor.sh
+	```
+
 4. Real-world multi-object images under compositional distribution shifts
 
 	To run the experiments exploiting the latent structures in GroupVIT with different matching modules:
